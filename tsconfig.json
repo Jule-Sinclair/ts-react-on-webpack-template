@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "moduleResolution": "node",
+    "module": "esnext",
+    "target": "es5",
+    "lib": [
+      "es2015", "es6", "esnext", "dom", "dom.iterable"
+    ],
+    "allowJs": true,
+    "sourceMap": true,
+    "baseUrl": ".",
+    "outDir": "dist",
+    "paths": {
+      "app/*": ["./src/app/*"],
+      "css/*": ["./src/css/*"],
+      "components/*": ["./src/app/components/*"],
+      "containers/*": ["./src/app/containers/*"],
+      "utils/*": ["./src/app/utils/*"],
+      "constants/*": ["./src/app/constants/*"],
+      "assets/*": ["./src/assets/*"],
+    },
+    "allowSyntheticDefaultImports": true,
+    "keyofStringsOnly": true
+  }
+}

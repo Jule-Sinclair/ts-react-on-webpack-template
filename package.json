@@ -1,0 +1,35 @@
+{
+  "name": "ts-react-on-webpack-template",
+  "version": "1.0.0",
+  "description": "typescript and react project template which is build with webpack",
+  "main": "index.js",
+  "repository": "git@github.com:Jununymous/ts-react-on-webpack-template.git",
+  "author": "JunWoo <junu.sinclair@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^16.8.23",
+    "@types/react-dom": "^16.8.4",
+    "css-loader": "^3.0.0",
+    "cssnano": "^4.1.10",
+    "file-loader": "^4.0.0",
+    "postcss-base64": "^0.7.1",
+    "postcss-cssnext": "^3.1.0",
+    "postcss-import": "^12.0.1",
+    "postcss-loader": "^3.0.0",
+    "postcss-nesting": "^7.0.0",
+    "style-loader": "^0.23.1",
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.5.3",
+    "webpack": "^4.35.3",
+    "webpack-cli": "^3.3.5",
+    "webpack-dev-server": "^3.7.2"
+  },
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack --mode production"
+  }
+}
